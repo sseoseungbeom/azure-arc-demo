@@ -8,8 +8,8 @@ metadata:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-webserver
-  namespace: webserver  
+  name: nginx-deployment
+  namespace: nginx-webserver 
   labels:
     app: nginx
 spec:
