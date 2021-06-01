@@ -5,7 +5,7 @@ metadata:
     name: nginx-webserver
   name: nginx-webserver
 ---
-apiVersion: apps/v1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: nginx-deployment
